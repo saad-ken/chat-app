@@ -1,7 +1,8 @@
 import "./styles/main.scss";
 import "rsuite/dist/rsuite.min.css";
+import { Button } from "rsuite";
 function App() {
-  return <div>hello</div>;
+  return <Button appearance="ghost">hello</Button>;
 }
 
 export default App;
